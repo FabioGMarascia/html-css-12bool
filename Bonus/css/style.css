@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  padding: 1rem;
+}
+
+.box-blue {
+  background-color: darkblue;
+}
+
+.box-red {
+  background-color: #e34c55;
+}
+
+.box-orange {
+  background-color: orange;
+}
+
+.box-purple {
+  background-color: #971996;
+}
+
+.box-yellow {
+  background-color: yellow;
+}
+
+.box-black {
+  background-color: #222;
+}
+
+.box-lightblue {
+  background-color: lightblue;
+}
+
+
+<div class="col-4 row">
+
+<div class="col-1">
+            <div class="box box-blue"></div>
+          </div>
